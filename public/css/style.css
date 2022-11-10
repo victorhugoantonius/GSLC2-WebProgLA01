@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Verdana';
+    background-color: black;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+header .left {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+header .right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 80px;
+}
+
+.image-resize {
+    height: 450px;
+}
